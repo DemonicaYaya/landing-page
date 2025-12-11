@@ -1,31 +1,140 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 0 200px;
 }
 
-.first-section{
-  background-color: #1f2937
-}
-#header-logo{
-  font-size: 24px;
-  color: #f9faf8;
-}
-.header-link{
-  font-size: 18px;
-  color: #e5e7eb;
-}
-ul{
+.header-top {
   display: flex;
-  flex-direction: row;
-}
-.navbar-left,.navbar-right{
-  display: flex;
-  width:50%;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
 }
-h1{
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.header-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.header-links a {
+  text-decoration: none;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+  gap: 50px;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-left h1 {
   font-size: 48px;
-  font-weight: bolder;
-  color:#f9faf8
+  font-weight: 900;
+  color: #F9FAF8;
+  margin-bottom: 10px;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 20px;
+}
+
+.hero-left button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero-right {
+  flex: 1;
+}
+
+.hero-right img {
+  width: 100%;
+  height: auto;
+}
+.information {
+  text-align: center;
+  padding: 50px 200px;
+}
+
+.information h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin-bottom: 50px;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.info-box {
+  max-width: 200px;
+}
+
+.info-box img {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882F6;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.info-box p {
+  color: #1F2937;
+  font-size: 18px;
+}
+.quote-section {
+  background-color: #E5E7EB;
+  padding: 100px 300px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+  margin-bottom: 20px;
+}
+
+.author {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1F2937;
 }
