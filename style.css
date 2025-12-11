@@ -172,3 +172,10 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
+.footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 40px 0;
+  margin-top: auto;
+}
