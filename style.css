@@ -138,3 +138,37 @@ body {
   font-weight: bold;
   color: #1F2937;
 }
+.cta-section {
+  padding: 100px 200px;
+}
+
+.cta-box {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 50px 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cta-text p {
+  font-size: 18px;
+}
+
+.cta-box button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: 2px solid #F9FAF8;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
